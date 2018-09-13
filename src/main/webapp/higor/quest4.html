@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Curriculo</title>
+        <style type="text/css">
+            *{ /*Formata todos os elementos da página*/
+                padding:0px; /*espaço entre a borda e o conteúdo do elemento*/
+                margin:0px; /*espaço entre a borda e os elementos externos*/
+            }
+            
+            #imgpos{
+            	position: absolute;
+				left: 0%;
+				top: 0%
+            }
+            
+          
+            #topo{
+            	left: 50 %;
+                width: 100%; /*largura*/
+                height: 100px; /*altura*/
+                text-align: center; /*alinhamento do texto*/
+                clear: both; /*não permite elementos flutuantes ao lado*/
+                background-color: #cccccc; /*cor de fundo*/
+            }
+             #perfil{
+                text-align: center; /*alinhamento do texto*/
+                clear: both; /*não permite elementos flutuantes ao lado*/
+              }
+            #menu{
+                height: 50px; /*altura*/
+                text-align: center; /*alinhamento do texto*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                background-color: #ffcc00; /*cor de fundo*/
+            }
+            #meio{
+                width: 100%; /*largura*/
+                background-color: #f90; /*cor de fundo*/
+                height: 80%;; /*altura*/
+            }
+            #lateral{
+                float:right; /*define que o elemento deve flutuar à direita*/
+                background-color: #ff6600; /*cor de fundo*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                width: 15% /*largura*/
+            }
+            #conteudo{	
+            	
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                width: 80%; /*largura*/
+                float:left; /*define que o elemento deve flutuar à esquerda*/
+                background-color: #999999; /*cor de fundo*/
+            }
+            #rodape{
+                clear: both; /*não permite elementos flutuantes ao lado*/
+                text-align: center; /*alinhamento do texto*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                background-color: #cccccc; /*cor de fundo*/
+            }
+                        
+        </style>
+    </head>	
+    <body>
+
+    <header id="topo">
+        <h1>curriculo</h1><br>
+        <h2>Higor Stefany dos Santos Nóbrega</h2>       
+    
+    </header>
+    
+     <figure>
+ 			<img src="imagens/photo5030965442193237992.jpg" alt="Foto perfil" width="150" height="150" id="imgpos" />
+		</figure>
+
+    <nav id="menu">
+        <a href="#">Perfil</a>
+        <a href="#">Experiencia</a>
+        <a href="#">Menu 3</a>
+        <a href="#">Menu 4</a>
+        <a href="#">Menu 5</a>
+    </nav>
+
+    <section id="meio">
+
+        <article id="conteudo">
+        	<h3 id="perfil">Perfil</h3>
+            <p>Possui graduação em Ciência da Computação pela Universidade 
+        do Estado do Rio Grande do Norte(2014), graduação em Ciências da 
+        Computação pela Universidade Estadual da Paraíba(2016), graduação 
+        em Pedagogia pela Universidade Estadual Vale do Acaraú(2012) e 
+        ensino-medio-segundo-graupela Escola Estadual Monsenhor Amâncio 
+        Ramalho(2011). Tem experiência na área de Ciência da Computação.</p> <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+        </article>
+
+        <aside id="lateral">
+            <p>Barra lateral</p>
+        </aside>
+
+    </section>
+
+    <footer id="rodape">
+        <h2>Rodapé da página</h2>
+    </footer>
+
+    </body>
+</html>   
